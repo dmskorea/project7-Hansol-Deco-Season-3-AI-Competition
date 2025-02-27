@@ -1,8 +1,8 @@
 #### 실험 리더보드
 
-| 학습유형 | valid | test | 작성자  | 시간 | 모델명                          | 양자화 옵션 | 임베딩모델           | Retriever                                      | RAG pipeline                                | 비고 |
+| 학습유형 | valid | 리더보드 | 작성자  | 시간 | 모델명                          | 양자화 옵션 | 임베딩모델           | Retriever                                      | RAG pipeline                                | 비고 |
 |---------|-------|------|--------|----|---------------------------------|------------|---------------------|------------------------------------------------|--------------------------------------------|----|
-| RAG     |       |      | 현종열 |  valid:19min  | meta-llama/Llama-2-7b-hf       | nf4       | jhgan/ko-sbert-nli | search_type="similarity", search_kwargs={"k": 5} | temperature=0.1, max_new_tokens=64, chain_type="stuff" |    |
+| RAG     |  0.646  | 0.499 | 현종열 |  valid:19min  | meta-llama/Llama-2-7b-hf       | nf4       | jhgan/ko-sbert-nli | search_type="similarity", search_kwargs={"k": 5} | temperature=0.1, max_new_tokens=64, chain_type="stuff" |    |
 |         |       |      |        |    |                                 |            |                     |                                                |                                            |    |
 |         |       |      |        |    |                                 |            |                     |                                                |                                            |    |
 |         |       |      |        |    |                                 |            |                     |                                                |                                            |    |
