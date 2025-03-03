@@ -12,12 +12,12 @@
 | RAG  |         |       |                         | rag_model_v8_0_0.ipynb | 파인튜닝 모델 적용 (중요정보 추출)  |
 | RAG  |         |       |                         | rag_model_v7_0_0.ipynb | 증강 데이터 활용   |              
 | RAG  |         |       |                         | rag_model_v6_0_0.ipynb | context 내용 제공  |
-| RAG  |         |       |                         |                        | pipeline: max_new_tokens 64 -> 80 |
+| RAG  |  0.633  |       | valid:13min, test: 1hr  |                        | pipeline: max_new_tokens 64 -> 80 |
 | RAG  |         |       |                         |                        | pipeline: max_new_tokens 64 -> 70 |
 | RAG  |         |       |                         |                        | pipeline: max_new_tokens 64 -> 50 |
 | RAG  |         |       |                         |                        | pipeline: temperature 0.1 -> 0.3 |
 | RAG  |         |       |                         |                        | pipeline: temperature 0.1 -> 0.05 |
-| RAG  |  0.629  | 0.474 | valid:20min, test: 1hrn |                        | pipeline: temperature 0.1 -> 0.2 |
+| RAG  |  0.629  | 0.474 | valid:20min, test: 1hr  |                        | pipeline: temperature 0.1 -> 0.2 |
 | RAG  |  0.624  |       |                         |                        | vector_store.as_retriever: similarity k 10 -> 7 |
 | RAG  |  0.620  |       |                         |                        | vector_store.as_retriever: similarity k 10 -> 5 |
 | RAG  |  0.110  |       | valid:45min             |                        | vector_store.as_retriever: similarity k 10 -> 30 |
