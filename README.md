@@ -8,9 +8,9 @@
 | 유형 |  valid  |  test | running time            | code                   | 비고                                        |
 |------|---------|-------|-------------------------|------------------------|---------------------------------------------|
 | 1등  |         | 0.534 |                         |                        |                                             |
-| RAG  |         |       |                         | rag_model_v9_0_0.ipynb | 파인튜닝 모델 적용 (PDF파일 학습)   |
-| RAG  |         |       |                         | rag_model_v8_0_0.ipynb | 파인튜닝 모델 적용 (중요정보 추출)  |
-| RAG  |         |       |                         | rag_model_v7_0_0.ipynb | 증강 데이터 활용   |              
+| FINE |         |       |                         | rag_model_v9_0_0.ipynb | 파인튜닝 모델 적용 (PDF파일 학습)   |
+| FINE |         |       |                         | rag_model_v8_0_0.ipynb | 파인튜닝 모델 적용 (중요정보 추출)  |
+| FINE |         |       |                         | rag_model_v7_0_0.ipynb | 증강 데이터 활용   |              
 | RAG  |         |       |                         | rag_model_v6_0_0.ipynb | context 내용 제공  |
 | RAG  |  0.633  |       | valid:13min, test: 1hr  |                        | pipeline: max_new_tokens 64 -> 80 |
 | RAG  |         |       |                         |                        | pipeline: max_new_tokens 64 -> 70 |
