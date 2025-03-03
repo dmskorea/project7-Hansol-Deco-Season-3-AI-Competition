@@ -11,7 +11,7 @@
 | FINE |         |       |                         | rag_model_v9_0_0.ipynb | 파인튜닝 모델 적용 (PDF파일 학습)   |
 | FINE |         |       |                         | rag_model_v8_0_0.ipynb | 파인튜닝 모델 적용 (중요정보 추출)  |
 | FINE |         |       |                         | rag_model_v7_0_0.ipynb | 증강 데이터 활용   |              
-| RAG  |         |       |                         | rag_model_v6_0_0.ipynb | context 내용 제공  |
+| RAG  |  0.624  |       | valid:13min             | rag_model_v6_0_0.ipynb | context 내용 제공  |
 | RAG  |  0.633  | 0.476 | valid:13min, test:57min | rag_model_v5_4_4.ipynb | pipeline: max_new_tokens 64 -> 80 |
 | RAG  |         |       |                         |                        | pipeline: max_new_tokens 64 -> 70 |
 | RAG  |         |       |                         |                        | pipeline: max_new_tokens 64 -> 50 |
