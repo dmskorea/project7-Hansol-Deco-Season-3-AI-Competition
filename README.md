@@ -21,7 +21,7 @@
 | RAG  |  0.624  |       | valid:11min, test:48min |                        | vector_store.as_retriever: similarity k 10 -> 7 |
 | RAG  |  0.620  |       | valid:11min, test:48min |                        | vector_store.as_retriever: similarity k 10 -> 5 |
 | RAG  |  0.110  |       | valid:45min, test:2hr   |                        | vector_store.as_retriever: similarity k 10 -> 30 |
-| RAG  |  0.626  | 0.473 | valid:11min, test:48min | rag_model_v5_4_3.ipynb | question-answer 정보 추가 (사고월, 사고요일, 사고시간) |
+| RAG  |  0.626  | 0.473(*) | valid:11min, test:48min | rag_model_v5_4_3.ipynb | question-answer 정보 추가 (사고월, 사고요일, 사고시간) |
 | RAG  |  0.510  |       | valid:11min, test:48min | rag_model_v5_4_3.ipynb | question-answer 정보 요약해서 핵심만 제공              |
 | RAG  |  0.624  | 0.469 | valid:11min, test:48min | rag_model_v5_4_2.ipynb | 프롬프트 수정 (베스트정답 제시)                        |
 | RAG  |  0.620  | 0.468 | valid:11min, test:48min | rag_model_v5_4.ipynb   | 프롬프트 수정 (인적사고유형별 베스트정답 제시)          |
