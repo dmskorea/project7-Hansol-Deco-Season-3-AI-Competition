@@ -17,7 +17,7 @@
 | RAG  |         |       |                         |                        | pipeline: max_new_tokens 64 -> 50 |
 | RAG  |         |       |                         |                        | pipeline: temperature 0.1 -> 0.3 |
 | RAG  |         |       |                         |                        | pipeline: temperature 0.1 -> 0.05 |
-| RAG  |         |       |                         |                        | pipeline: temperature 0.1 -> 0.2 |
+| RAG  |  0.629  |       | valid:20min, test:  min |                        | pipeline: temperature 0.1 -> 0.2 |
 | RAG  |  0.624  |       |                         |                        | vector_store.as_retriever: similarity k 10 -> 7 |
 | RAG  |  0.620  |       |                         |                        | vector_store.as_retriever: similarity k 10 -> 5 |
 | RAG  |  0.110  |       | valid:45min             |                        | vector_store.as_retriever: similarity k 10 -> 30 |
