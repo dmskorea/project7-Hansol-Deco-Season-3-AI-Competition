@@ -16,7 +16,7 @@
 | RAG  |         |       | valid:13min, test:57min | rag_model_v5_4_5.ipynb | hwkwon/S-SOLAR-10.7B-v1.5 |
 | RAG  |         |       | valid:13min, test:57min | rag_model_v5_4_5.ipynb | NCSOFT/Llama-VARCO-8B-Instruct |
 | RAG  |         |       | valid:13min, test:57min | rag_model_v5_4_5.ipynb | recoilme/recoilme-gemma-2-9B-v0.4 |
-| RAG  |         |       | valid:13min, test:57min | rag_model_v5_4_5.ipynb | SEOKDONG/llama3.1_korean_v1.1_sft_by_aidx|
+| RAG  |  0.584  |       | valid:13min, test:57min | rag_model_v5_4_5.ipynb | SEOKDONG/llama3.1_korean_v1.1_sft_by_aidx|
 | RAG  |  0.633  | 0.476 | valid:13min, test:57min | rag_model_v5_4_5.ipynb | MLP-KTLim/llama-3-Korean-Bllossom-8B |
 | RAG  |  0.633  | 0.476 | valid:13min, test:57min | rag_model_v5_4_4.ipynb | pipeline: max_new_tokens 64 -> 80 |
 | RAG  |         |       |                         |                        | pipeline: max_new_tokens 64 -> 70 |
