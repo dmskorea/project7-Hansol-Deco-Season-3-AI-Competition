@@ -12,9 +12,9 @@
 | FINE |         |       |                         | rag_model_v8_0_0.ipynb | 파인튜닝 모델 적용 (중요정보 추출)  |
 | FINE |         |       |                         | rag_model_v7_0_0.ipynb | 증강 데이터 활용   |              
 | RAG  |  0.624  |       | valid:13min             | rag_model_v6_0_0.ipynb | context 내용 제공  |
-| RAG  |         |       | valid:13min, test:57min | rag_model_v5_4_5.ipynb | meta-llama/Llama-2-7b-chat-hf |
-| RAG  |         |       | valid:13min, test:57min | rag_model_v5_4_5.ipynb | hwkwon/S-SOLAR-10.7B-v1.5 |
-| RAG  |         |       | valid:13min, test:57min | rag_model_v5_4_5.ipynb | NCSOFT/Llama-VARCO-8B-Instruct |
+| RAG  |         |       | valid:13min, test:57min |                        | meta-llama/Llama-2-7b-chat-hf |
+| RAG  |         |       | valid:13min, test:57min |                        | hwkwon/S-SOLAR-10.7B-v1.5 |
+| RAG  |         |       | valid:13min, test:57min |                        | NCSOFT/Llama-VARCO-8B-Instruct |
 | RAG  |  0.584  |       | valid:13min, test:57min | rag_model_v5_4_5.ipynb | SEOKDONG/llama3.1_korean_v1.1_sft_by_aidx|
 | RAG  |  0.633  | 0.476 | valid:13min, test:57min | rag_model_v5_4_5.ipynb | MLP-KTLim/llama-3-Korean-Bllossom-8B |
 | RAG  |  0.633  | 0.476 | valid:13min, test:57min | rag_model_v5_4_4.ipynb | pipeline: max_new_tokens 64 -> 80 |
