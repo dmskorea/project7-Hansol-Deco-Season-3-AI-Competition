@@ -11,7 +11,7 @@
 | FINE |         |         |                         | rag_model_v9_0_0.ipynb | 파인튜닝 모델 적용 (PDF파일 학습)   |
 | FINE |         |         |                         | rag_model_v8_0_0.ipynb | 파인튜닝 모델 적용 (중요정보 추출)  |
 | FINE |         |         |                         | rag_model_v7_0_0.ipynb | 증강 데이터 활용   |        
-| RAG  |  0.640  |         | valid:13min             | rag_model_v8_7_1(vllm).ipynb | 임베딩 모델 BAAI/bge-m3 |
+| RAG  |  0.640  |         | valid:13min             | rag_model_v8_7_3(vllm).ipynb | 임베딩 모델 BAAI/bge-m3 |
 | RAG  |  0.645  | (0.493) | valid:13min             | rag_model_v8_7_1(vllm).ipynb | Qwen/Qwen2.5-14B-Instruct-1M |
 | RAG  |  0.637  |         | valid:13min             | rag_model_v8_6_9(vllm).ipynb | Qwen/Qwen2.5-14B-Instruct-1M |
 | RAG  |  0.624  |         | valid:13min             | rag_model_v6_0_0.ipynb | context 내용 제공  |
