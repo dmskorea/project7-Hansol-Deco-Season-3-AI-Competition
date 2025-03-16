@@ -12,7 +12,7 @@
 | FINE |         |         |                         | rag_model_v8_0_0.ipynb | 파인튜닝 모델 적용 (중요정보 추출)  |
 | FINE |         |         |                         | rag_model_v7_0_0.ipynb | 증강 데이터 활용   |        
 | RAG  |  0.657  |  | valid:13min             | rag_model_v8_8_4(vllm).ipynb | 임베딩 모델 intfloat/multilingual-e5-large-instruct |
-| RAG  |  0.654  | (0.496) | valid:13min             | rag_model_v8_8_2(vllm).ipynb | 임베딩 모델 intfloat/multilingual-e5-large-instruct |
+| RAG  |  0.654  | (0.497) | valid:13min             | rag_model_v8_8_2(vllm).ipynb | 임베딩 모델 intfloat/multilingual-e5-large-instruct |
 | RAG  |  0.653  | (0.499) | valid:13min             | rag_model_v8_7_7(vllm).ipynb | 임베딩 모델 intfloat/multilingual-e5-large-instruct |
 | RAG  |  0.640  |         | valid:13min             | rag_model_v8_7_3(vllm).ipynb | 임베딩 모델 BAAI/bge-m3 |
 | RAG  |  0.645  | (0.493) | valid:13min             | rag_model_v8_7_1(vllm).ipynb | Qwen/Qwen2.5-14B-Instruct-1M |
