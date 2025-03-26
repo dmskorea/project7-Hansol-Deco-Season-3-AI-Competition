@@ -1,0 +1,37 @@
+[project]
+name = "hansoldeco3"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "lgh",email = "lghmk2@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "transformers (>=4.49.0,<5.0.0)",
+    "langchain-community (>=0.3.18,<0.4.0)",
+    "bitsandbytes (>=0.45.2,<0.46.0)",
+    "accelerate (>=1.4.0,<2.0.0)",
+    "faiss-gpu-cu12 (>=1.10.0,<2.0.0)",
+    "sentence-transformers (>=3.4.1,<4.0.0)",
+    "missingno (>=0.5.2,<0.6.0)",
+    "pypdf (>=5.3.0,<6.0.0)",
+    "vllm (>=0.7.3,<0.8.0)",
+    "auto-gptq (>=0.7.1,<0.8.0)",
+    "setuptools (>=75.8.2,<76.0.0)",
+    "transformers-stream-generator (>=0.0.5,<0.0.6)",
+    "wordcloud (>=1.9.4,<2.0.0)",
+    "konlpy (>=0.6.0,<0.7.0)",
+    "langchain-huggingface (>=0.1.2,<0.2.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"

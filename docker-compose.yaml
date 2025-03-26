@@ -1,0 +1,40 @@
+# version: '0'
+
+services:
+  hansoldeco3:
+    image: hansoldeco3 # 빌드한 도커 이미지 이름을 여기에 입력
+    env_file:
+      - ./.env
+    build:
+      context: .
+      dockerfile: Dockerfile  # 앞에서 작성한 Dockerfile 경로
+      args:
+        USER_NAME: "${USER_NAME}"
+        USER_ID: "${USER_ID}"
+        GROUP_NAME: "${GROUP_NAME}"
+        GROUP_ID: "${GROUP_ID}"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]  # GPU 사용을 위한 설정
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all  # GPU 모든 장치 사용 설정
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility  # 필요한 드라이버 기능 설정
+    volumes:
+      - ${PATH_PROJECT_LOCAL}:${PATH_PROJECT_VIRTUAL}:Z  # 로컬 디렉토리 볼륨 마운트
+      - ${PATH_DATA_LOCAL}:${PATH_DATA_VIRTUAL}:Z  # 로컬 디렉토리 볼륨 마운트
+      - ${PATH_LOG_LOCAL}:${PATH_LOG_VIRTUAL}:Z  # 로컬 디렉토리 볼륨 마운트
+      - ${PATH_MODEL_LOCAL}:${PATH_MODEL_VIRTUAL}:Z  # 로컬 디렉토리 볼륨 마운트
+    ports:
+      - "${PORT_FLASK_HOST}:${PORT_FLASK_APP}"  # API 통신을 위한 포트 개방
+    runtime: nvidia  # nvidia-docker를 사용하기 위한 설정
+
+    user: "${USER_ID}:${GROUP_ID}"  # 호스트의 사용자와 동일한 UID와 GID를 사용
+    # dev / exp stage
+    stdin_open: true  # 표준 입력 열기 (interactive mode)
+    tty: true         # 터미널 모드 사용
+    # prod stage
+    # command: bash -c "source /app/.env && python3 your_api_script.py"  # .env 파일 로드 후 API 스크립트 실행
