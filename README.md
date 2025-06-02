@@ -1,4 +1,10 @@
 #### 로컬실험결과 리더보드
+
+![image](https://github.com/user-attachments/assets/b436fd83-df5d-439e-8a78-7e47dcc31e19)
+
+----------
+
+#### 로컬실험결과 리더보드
 - model : MLP-KTLim/llama-3-Korean-Bllossom-8B (float16)
 - vector_store.as_retriever: similarity : 10
 - pipeline: temperature 0.1 or 0.2
