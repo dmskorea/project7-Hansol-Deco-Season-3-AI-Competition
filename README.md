@@ -1,8 +1,8 @@
 #### 리더보드
 - 대회 URL : https://dacon.io/competitions/official/236455/leaderboard
 - 최종 파일 : ./submission/
-  
-![image](https://github.com/user-attachments/assets/b436fd83-df5d-439e-8a78-7e47dcc31e19)
+
+![image](https://github.com/user-attachments/assets/b7e1a4cf-a21f-41b0-8559-1fc3812ae2a6)
 
 ----------
 
