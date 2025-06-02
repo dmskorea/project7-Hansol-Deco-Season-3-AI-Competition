@@ -7,11 +7,6 @@
 ----------
 
 #### 로컬실험결과 리더보드
-- model : MLP-KTLim/llama-3-Korean-Bllossom-8B (float16)
-- vector_store.as_retriever: similarity : 10
-- pipeline: temperature 0.1 or 0.2
-- pipeline: max_new_tokens 64 -> 80
-- RetrievalQA.from_chain_type : stuff
 
 | 유형 |  valid  |  test   | running time            | code                   | 비고                                        |
 |------|---------|---------|-------------------------|------------------------|---------------------------------------------|
