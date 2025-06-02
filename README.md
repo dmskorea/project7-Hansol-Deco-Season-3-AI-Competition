@@ -1,7 +1,7 @@
 #### 리더보드
-
-https://dacon.io/competitions/official/236455/leaderboard
-
+- 대회 URL : https://dacon.io/competitions/official/236455/leaderboard
+- 최종 파일 : ./submission/
+  
 ![image](https://github.com/user-attachments/assets/b436fd83-df5d-439e-8a78-7e47dcc31e19)
 
 ----------
