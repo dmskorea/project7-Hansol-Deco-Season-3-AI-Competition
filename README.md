@@ -1,4 +1,6 @@
-#### 로컬실험결과 리더보드
+#### 리더보드
+
+https://dacon.io/competitions/official/236455/leaderboard
 
 ![image](https://github.com/user-attachments/assets/b436fd83-df5d-439e-8a78-7e47dcc31e19)
 
